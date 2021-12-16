@@ -18,8 +18,12 @@
 /* 
  * Opdracht 2: Zet hier de $buttons array neer 
  */
+<<<<<<< HEAD
 $buttons = [2, 8, 4.88];
 
+=======
+$buttons = [2, 5, 5.66];
+>>>>>>> 91e99073fe14ab68c9926ea399f0ce2a20424fca
 
 /******************************************* OPDRACHT 2 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
@@ -38,8 +42,13 @@ echo "haLLO";
 function calculateBitcoinAmount()
 {
     if (isset($_GET['euro'])) {
+<<<<<<< HEAD
         $euro = (int)$_GET['euro'];
         return $euro / getBitcoinData();       
+=======
+        $euro = (int)$_GET['euro']; 
+        return $euro / getBitcoinPrice();
+>>>>>>> 91e99073fe14ab68c9926ea399f0ce2a20424fca
     }
     //Dit blokje code (if-statement) kun je laten staan.
     //SCHRIJF JE CODE.
@@ -75,10 +84,17 @@ $transactions = [
 
 if (isset($_GET['euro'])) {
 
+<<<<<<< HEAD
     $euro = $_GET['euro']; //deze regel laten staan
     array_push($transactions, [getBitcoinPrice() , $euro, calculateBitcoinAmount()]);  
 }
 /* SCHRIJF HIER JE CODE.
+=======
+    $euro = $_GET['euro']; 
+    array_push($transactions, [getBitcoinPrice() , $euro, calculateBitcoinAmount()]);  
+
+    /* SCHRIJF HIER JE CODE.
+>>>>>>> 91e99073fe14ab68c9926ea399f0ce2a20424fca
      * Schrijf hieronder de code om de gekochte bitcoin aan de array $transactions toe te voegen.
      * Je voegt een bitcoinprijs toe, de prijs in euro's en het aantal gekochte bitcoins.
      */

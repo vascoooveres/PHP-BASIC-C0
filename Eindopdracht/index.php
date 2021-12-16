@@ -7,13 +7,19 @@
  * Opdracht 1: voeg hier het bestand allcoins.php in. 
  * Verder hoef je geen code te schrijven op deze pagina.
  */
+<<<<<<< HEAD
 include 'bitcoinData.php';
 
 
+=======
+
+include "bitcoinData.php";
+>>>>>>> 91e99073fe14ab68c9926ea399f0ce2a20424fca
 /*******************************************************************************************************************/
 /**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
-?>
 
+
+?>
 <?php include 'header.php'; ?>
 <div class="container mt-4">
     <div class="row mb-4">
